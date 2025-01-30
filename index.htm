@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>pets care website</title>
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,11 +20,72 @@
     <!-- tailwind + daisyUI cdn -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                'secondary-bg':'#FFF9F4',
+                'button-bg':'#FFDC26'
+              }
+            }
+          }
+        }
+      </script>
     <!-- fontAwesome -->
     <script src="https://kit.fontawesome.com/1abebfece9.js" crossorigin="anonymous"></script>
 </head>
-<body>
-    <h1 class="sora">hello</h1>
-    <p class="adlam-display">world</p>
+<body  class="sora">
+    <!-- header -->
+     <header>
+        <!-- navbar -->
+        <section class="bg-secondary-bg border-b md:border-none border-gray-900">
+            <div class="navbar  relative  w-11/12 mx-auto">
+                <div tabindex="0" role="button" class=" absolute right-0 lg:hidden">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-5 w-5"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor">
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M4 6h16M4 12h8m-8 6h16" />
+                    </svg>
+                  </div>
+                <div class="navbar">
+                    <div class="navbar-start">
+                      <a> <img src="assets/Group 1.png" alt=""></a>
+                    </div>
+                    <div class="navbar-center hidden lg:flex">
+                      <ul class="menu menu-horizontal px-1 text-black text-xl">
+                        <li><a>Find a pet</a></li>
+                        <li><a>Breeds</a></li>
+                        <li><a>Contact us</a></li>
+                        
+                      </ul>
+                    </div>
+                    <div class="navbar-end space-x-4">
+                        <i class="fa-regular fa-bell hidden md:block"></i>
+                        <i class="fa-solid fa-magnifying-glass hidden md:block"></i>
+                        <a class="border border-button-bg text-black px-7 py-2 hidden md:block text-xl rounded-lg">Login</a>
+                      <a class="bg-button-bg text-black px-7 py-2 hidden md:block text-xl rounded-lg">Register</a>
+                    </div>
+                  </div>
+            </div>
+        </section>
+     </header>
+     <!-- main -->
+      <main>
+
+      </main>
+      <!-- footer -->
+       <footer>
+
+       </footer>
 </body>
 </html>
