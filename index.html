@@ -29,7 +29,9 @@
                 clifford: '#da373d',
                 'secondary-bg':'#FFF9F4',
                 'button-bg':'#FFDC26',
-                'card-bg':'#F9DF8A'
+                'card-bg':'#F9DF8A',
+                'footer-bg':'rgba(255, 220, 38, 0.5)'
+                
               }
             }
           }
@@ -360,8 +362,31 @@
           </section>
       </main>
       <!-- footer -->
-       <footer>
-
-       </footer>
+      <footer class="footer bg-footer-bg text-neutral-content mt-32 py-14  md:py-28">
+        <div class="relative w-11/12 mx-auto grid grid-cols-1 md:grid-cols-3">
+          <div>
+            <div>
+              <img src="assets/footer-logo.png" alt="">
+            </div>
+            <p class=" md:pt-6 pt-4 pb-9 text-base text-black md:text-lg">Essential Dog Products To Buy For  <br> Welcoming Your Furry Friend To <br> Their New Home</p>
+          </div>
+          <div class=" md:pl-40">
+            <nav class=" text-black flex flex-col space-y-5 md:space-y-8 text-base md:text-lg">
+              <a class="link link-hover">Find a pet</a>
+              <a class="link link-hover">Breeds</a>
+              <a class="link link-hover">Contact us</a>
+            </nav>
+          </div>
+          <div class=" pt-9 md:absolute md:bottom-0 md:right-0">
+              <h6 class=" font-medium md:text-lg text-sm text-black">Follow Us</h6>
+              <div class=" md:space-x-7 space-x-6 pt-2">
+              <a class="text-black link-hover"><i class="fa-brands fa-facebook"></i></a>
+              <a class="text-black link-hover"><i class="fa-brands fa-instagram"></i></a>
+              <a class="text-black link-hover"><i class="fa-brands fa-linkedin"></i></a>
+              <a class="text-black link-hover"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+      </footer>
 </body>
 </html>
